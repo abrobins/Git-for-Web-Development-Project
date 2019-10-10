@@ -32,13 +32,30 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Stretch
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
-  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+- [X] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
+  - [X] Research and understand what a `merge conflict` is and how to resolve it.
+  Merge conflicts happen when there are competing changes of the same lines of code. This command just forces you to select which version you'd like to commit.
+  - [X] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+  
+  Pull request - a pull request is simply a notice to alert others of changes you've made to a certain branch of a repo on github. Once a pull request is created you can collaborate with others to determine if the code will be moved into the master branch.
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+  Rebase - The rebase command integrates changes from one branch to another. It's similar to merge but different in that it rewrites the commit history in order to produce a linear sequence of commits. 
 
-- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+  Merge - This command will combine different sequences of commits into the current branch. It's often used to merge 2 branches.
+
+  - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
+
+Reset - A command used to undo changes
+
+Revert - A command used to revert back to a previous commit
+
+Clean - Can be used to remove untracked files
+
+- [X ] Research and set up a Graphical User Interface (GUI) Git console. 
+ Setup GitKraken successfully on my Mac and opened up one of my repositories.
+ 
+- [X] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push. 
+
+
 
 
